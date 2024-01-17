@@ -1,0 +1,33 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+}
+.app-component-image {
+  width: 752px;
+  height: 561px;
+  position: relative;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .app-component-image {
+    width: 621px;
+  }
+}
+@media(max-width: 767px) {
+  .app-component-image {
+    top: 0px;
+    left: 0px;
+    width: 301px;
+    height: 180px;
+  }
+}
+@media(max-width: 375px) {
+  .app-component-image {
+    top: 104px;
+    left: 243px;
+    right: 9px;
+    width: 222px;
+    height: 206px;
+    position: absolute;
+  }
+}

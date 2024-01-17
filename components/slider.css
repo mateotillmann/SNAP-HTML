@@ -1,0 +1,60 @@
+.slider-container {
+  display: flex;
+  position: relative;
+}
+.slider-slider {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+  position: fixed;
+  border-radius: 10px;
+}
+.slider-slider-slide {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698778574083-279be0ac6681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzU2N3w&ixlib=rb-4.0.3&q=80&h=400');
+}
+.slider-slider-slide1 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1697384333613-de519c7367c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzAzN3w&ixlib=rb-4.0.3&q=80&w=700');
+}
+.slider-slider-slide2 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698180687511-bd6c0104ee98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzQ5NXw&ixlib=rb-4.0.3&q=80&w=700');
+}
+.slider-slider-slide3 {
+  display: flex ;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1458929526027-052f5d6a3c5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwNTQxNDM2NXw&ixlib=rb-4.0.3&q=80&h=400');
+}
+.slider-slider-pagination {
+  display: block;
+}
+@media(max-width: 1200px) {
+  .slider-slider {
+    width: 604px;
+    height: 362px;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .slider-slider-slide {
+    width: auto;
+    height: 303px;
+    background-size: cover;
+    background-image: url("public/400x400_63e272d968cbe-400h.jpg");
+  }
+  .slider-slider-slide1 {
+    background-size: cover;
+    background-image: url("public/a9-mini-hd-kamera-wifi-kapcsolattal-applikacion-nezheto-elokep-magneses-rogzitessel-bbv-6-700w.png");
+  }
+  .slider-slider-slide2 {
+    background-size: cover;
+    background-image: url("public/image1-700w.jpg");
+    background-position: center;
+  }
+  .slider-slider-slide3 {
+    background-size: cover;
+    background-image: url("public/pro_24959_2-400h.jpg");
+  }
+}
