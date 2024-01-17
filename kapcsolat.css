@@ -1,0 +1,430 @@
+.snap-kapcsolat-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.snap-kapcsolat-navbar-interactive {
+  position: initial;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.snap-kapcsolat-image {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.snap-kapcsolat-desktop-menu {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.snap-kapcsolat-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.snap-kapcsolat-nav12 {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.snap-kapcsolat-nav2 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.snap-kapcsolat-nav3 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+}
+.snap-kapcsolat-nav4 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.snap-kapcsolat-hero-button1 {
+  width: 156px;
+  height: 33px;
+  margin-left: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.snap-kapcsolat-container1 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  margin-left: var(--dl-space-space-sixunits);
+}
+.snap-kapcsolat-container2 {
+  display: contents;
+}
+.snap-kapcsolat-burger-menu {
+  display: none;
+}
+.snap-kapcsolat-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.snap-kapcsolat-mobile-menu1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.snap-kapcsolat-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.snap-kapcsolat-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.snap-kapcsolat-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.snap-kapcsolat-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.snap-kapcsolat-icon02 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.snap-kapcsolat-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.snap-kapcsolat-nav1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.snap-kapcsolat-nav21 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.snap-kapcsolat-nav31 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.snap-kapcsolat-nav41 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.snap-kapcsolat-nav5 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.snap-kapcsolat-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.snap-kapcsolat-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.snap-kapcsolat-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.snap-kapcsolat-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.snap-kapcsolat-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHx3b3JrJTIwbGFwdG9wfGVufDB8fHx8MTYyNjE3NjkzMA&ixlib=rb-1.2.1&w=1500');
+}
+.snap-kapcsolat-text {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+}
+.snap-kapcsolat-text1 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.snap-kapcsolat-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.snap-kapcsolat-link1 {
+  font-size: 0.75rem;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.snap-kapcsolat-link1:hover {
+  transform: scale(1.02);
+}
+.snap-kapcsolat-link2 {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.snap-kapcsolat-link2:hover {
+  transform: scale(1.02);
+}
+.snap-kapcsolat-image2 {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.snap-kapcsolat-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.snap-kapcsolat-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.snap-kapcsolat-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.snap-kapcsolat-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.snap-kapcsolat-link3 {
+  display: contents;
+}
+.snap-kapcsolat-icon12 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.snap-kapcsolat-icon14 {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1200px) {
+  .snap-kapcsolat-nav12 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 991px) {
+  .snap-kapcsolat-hero {
+    flex-direction: column;
+  }
+  .snap-kapcsolat-text {
+    text-align: center;
+  }
+  .snap-kapcsolat-text1 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .snap-kapcsolat-navbar-interactive {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .snap-kapcsolat-desktop-menu {
+    display: none;
+  }
+  .snap-kapcsolat-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .snap-kapcsolat-nav1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .snap-kapcsolat-nav21 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .snap-kapcsolat-nav31 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .snap-kapcsolat-nav41 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .snap-kapcsolat-nav5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .snap-kapcsolat-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .snap-kapcsolat-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .snap-kapcsolat-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .snap-kapcsolat-container3 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .snap-kapcsolat-text8 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .snap-kapcsolat-hero {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .snap-kapcsolat-btn-group {
+    flex-direction: column;
+  }
+  .snap-kapcsolat-link2 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}
+@media(max-width: 430px) {
+  .snap-kapcsolat-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+    border-color: var(--dl-color-gray-black);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .snap-kapcsolat-icon {
+    width: 38px;
+    height: 38px;
+  }
+  .snap-kapcsolat-mobile-menu1 {
+    height: 379px;
+    padding: 16px;
+  }
+  .snap-kapcsolat-icon02 {
+    width: 34px;
+    height: 38px;
+  }
+  .snap-kapcsolat-nav21 {
+    text-decoration: none;
+  }
+  .snap-kapcsolat-nav41 {
+    font-size: 16px;
+    font-family: Overpass;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+  }
+  .snap-kapcsolat-hero {
+    height: 806px;
+  }
+  .snap-kapcsolat-text {
+    color: var(--dl-color-gray-white);
+    font-size: 3rem;
+  }
+  .snap-kapcsolat-text1 {
+    color: var(--dl-color-gray-white);
+  }
+  .snap-kapcsolat-link1 {
+    text-transform: uppercase;
+  }
+  .snap-kapcsolat-link2 {
+    color: var(--dl-color-gray-white);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    background-color: transparent;
+  }
+  .snap-kapcsolat-footer {
+    padding: var(--dl-space-space-unit);
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .snap-kapcsolat-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .snap-kapcsolat-container3 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .snap-kapcsolat-text8 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
