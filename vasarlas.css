@@ -96,7 +96,6 @@
   background-color: #ffffff;
 }
 .snap-mini-navbar-interactive {
-  position: initial;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius4);
@@ -142,14 +141,6 @@
   margin-left: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-oneandhalfunits);
   text-decoration: none;
-}
-.snap-mini-container1 {
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
-  margin-left: var(--dl-space-space-sixunits);
-}
-.snap-mini-container2 {
-  display: contents;
 }
 .snap-mini-burger-menu {
   display: none;
@@ -262,15 +253,15 @@
   width: 25rem;
   object-fit: cover;
 }
-.snap-mini-container3 {
+.snap-mini-container1 {
   display: flex;
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.snap-mini-text02 {
+.snap-mini-text04 {
   font-size: 3rem;
 }
-.snap-mini-text06 {
+.snap-mini-text08 {
   margin-top: var(--dl-space-space-unit);
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
@@ -299,6 +290,9 @@
   display: flex;
   justify-content: center;
 }
+.snap-mini-container3 {
+  display: contents;
+}
 .snap-mini-container4 {
   width: 100%;
   display: flex;
@@ -308,7 +302,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.snap-mini-text10 {
+.snap-mini-text12 {
   color: #040404;
   font-size: 0.75rem;
   max-width: 600px;
@@ -379,16 +373,16 @@
     position: relative;
     margin-bottom: 0px;
   }
-  .snap-mini-container3 {
+  .snap-mini-container1 {
     width: 743px;
   }
-  .snap-mini-text02 {
+  .snap-mini-text04 {
     font-size: 3rem;
   }
-  .snap-mini-text03 {
+  .snap-mini-text05 {
     color: #ef8d11;
   }
-  .snap-mini-text06 {
+  .snap-mini-text08 {
     font-weight: 600;
   }
   .snap-mini-button {
@@ -402,16 +396,16 @@
   .snap-mini-container4 {
     background-color: #ffffff;
   }
-  .snap-mini-text07 {
+  .snap-mini-text09 {
     color: var(--dl-color-gray-white);
   }
-  .snap-mini-text08 {
+  .snap-mini-text10 {
     color: #000000;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
   }
-  .snap-mini-text10 {
+  .snap-mini-text12 {
     color: rgb(0, 0, 0);
     font-size: 0.75rem;
   }
@@ -425,22 +419,22 @@
   .snap-mini-image2 {
     order: 2;
   }
-  .snap-mini-container3 {
+  .snap-mini-container1 {
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .snap-mini-text02 {
+  .snap-mini-text04 {
     text-align: center;
   }
-  .snap-mini-text06 {
+  .snap-mini-text08 {
     text-align: center;
   }
-  .snap-mini-text07 {
+  .snap-mini-text09 {
     text-align: center;
   }
-  .snap-mini-text10 {
+  .snap-mini-text12 {
     text-align: center;
   }
   .snap-mini-container5 {
@@ -508,7 +502,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .snap-mini-text11 {
+  .snap-mini-text13 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -519,7 +513,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .snap-mini-container3 {
+  .snap-mini-container1 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .snap-mini-btn-group {
@@ -533,12 +527,23 @@
   }
 }
 @media(max-width: 430px) {
+  .snap-mini-container {
+    background-color: var(--dl-color-custom-secondary1);
+  }
   .snap-mini-navbar-interactive {
+    height: 91px;
     padding: var(--dl-space-space-unit);
-    position: initial;
+    position: relative;
     border-color: var(--dl-color-gray-black);
     border-style: solid;
     border-width: 1px;
+  }
+  .snap-mini-image {
+    top: 17px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
   }
   .snap-mini-icon {
     width: 38px;
@@ -567,12 +572,15 @@
     height: 660px;
     position: relative;
   }
-  .snap-mini-container3 {
+  .snap-mini-container1 {
     width: 375px;
     height: 611px;
   }
-  .snap-mini-text02 {
+  .snap-mini-text04 {
     width: 291px;
+  }
+  .snap-mini-container4 {
+    background-color: var(--dl-color-custom-secondary1);
   }
   .snap-mini-footer {
     padding: var(--dl-space-space-unit);
@@ -587,7 +595,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .snap-mini-text11 {
+  .snap-mini-text13 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
