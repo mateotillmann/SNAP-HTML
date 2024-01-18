@@ -272,6 +272,9 @@
   width: 24px;
   height: 24px;
 }
+.snap-kapcsolat-container5 {
+  display: contents;
+}
 @media(max-width: 1200px) {
   .snap-kapcsolat-nav12 {
     text-decoration: none;
