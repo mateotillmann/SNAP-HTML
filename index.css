@@ -66,6 +66,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: var(--dl-color-primary-300);
 }
 .snap-header {
   width: 100%;
@@ -296,6 +297,12 @@
 .snap-text04 {
   font-size: 3rem;
 }
+.snap-text05 {
+  color: #f3b005;
+}
+.snap-text07 {
+  color: var(--dl-color-gray-white);
+}
 .snap-container05 {
   flex: 0 0 auto;
   width: auto;
@@ -316,6 +323,24 @@
   margin-top: var(--dl-space-space-unit);
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+}
+.snap-text10 {
+  font-size: 13px;
+}
+.snap-text11 {
+  color: var(--dl-color-gray-white);
+  font-size: 13px;
+  text-decoration: line-through;
+}
+.snap-text12 {
+  font-size: 13px;
+}
+.snap-text13 {
+  color: var(--dl-color-danger-300);
+  font-size: 13px;
+}
+.snap-text16 {
+  color: #f3b005;
 }
 .snap-btn-group1 {
   display: flex;
@@ -460,10 +485,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.snap-text26 {
+.snap-text33 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.snap-text27 {
+.snap-text34 {
   text-align: left;
 }
 .snap-container14 {
@@ -534,6 +559,56 @@
   width: 24px;
   height: 24px;
 }
+@media(max-width: 1600px) {
+  .snap-container {
+    background-color: var(--dl-color-primary-300);
+  }
+  .snap-animate-on-reveal {
+    background-color: var(--dl-color-primary-300);
+  }
+  .snap-hero2 {
+    background-color: var(--dl-color-primary-300);
+  }
+  .snap-text04 {
+    font-size: 3rem;
+  }
+  .snap-text05 {
+    color: #f3b005;
+  }
+  .snap-text07 {
+    color: var(--dl-color-gray-white);
+  }
+  .snap-text09 {
+    font-weight: 600;
+  }
+  .snap-text10 {
+    font-size: 13px;
+  }
+  .snap-text11 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: line-through;
+  }
+  .snap-text12 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text13 {
+    color: var(--dl-color-danger-500);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text14 {
+    color: var(--dl-color-danger-500);
+  }
+  .snap-text15 {
+    color: #f3b005;
+  }
+  .snap-text16 {
+    color: #f3b005;
+  }
+}
 @media(max-width: 1200px) {
   .snap-hero {
     align-items: center;
@@ -579,6 +654,33 @@
   .snap-text09 {
     color: var(--dl-color-gray-white);
     font-weight: 600;
+  }
+  .snap-text10 {
+    font-size: 13px;
+  }
+  .snap-text11 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: line-through;
+  }
+  .snap-text12 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text13 {
+    color: var(--dl-color-danger-500);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text14 {
+    text-decoration: inherit;
+  }
+  .snap-text15 {
+    color: #f3b005;
+  }
+  .snap-text16 {
+    color: #f3b005;
   }
   .snap-navlink1 {
     color: var(--dl-color-gray-white);
@@ -627,6 +729,34 @@
   }
   .snap-text09 {
     text-align: center;
+    font-weight: 600;
+  }
+  .snap-text10 {
+    font-size: 13px;
+  }
+  .snap-text11 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: line-through;
+  }
+  .snap-text12 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text13 {
+    color: var(--dl-color-danger-500);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text14 {
+    text-decoration: inherit;
+  }
+  .snap-text15 {
+    color: #f3b005;
+  }
+  .snap-text16 {
+    color: #f3b005;
   }
   .snap-features-sub-heading {
     text-align: center;
@@ -636,7 +766,7 @@
   .snap-banner-sub-heading {
     max-width: 100%;
   }
-  .snap-text27 {
+  .snap-text34 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -725,7 +855,7 @@
     align-items: center;
     justify-content: center;
   }
-  .snap-text27 {
+  .snap-text34 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -744,7 +874,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .snap-text28 {
+  .snap-text35 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -822,6 +952,36 @@
   .snap-text04 {
     width: 375px;
   }
+  .snap-text09 {
+    font-weight: 600;
+  }
+  .snap-text10 {
+    font-size: 13px;
+  }
+  .snap-text11 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: line-through;
+  }
+  .snap-text12 {
+    color: var(--dl-color-gray-white);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text13 {
+    color: var(--dl-color-danger-500);
+    font-size: 13px;
+    text-decoration: inherit;
+  }
+  .snap-text14 {
+    text-decoration: inherit;
+  }
+  .snap-text15 {
+    color: #f3b005;
+  }
+  .snap-text16 {
+    color: #f3b005;
+  }
   .snap-features1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -847,7 +1007,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .snap-text28 {
+  .snap-text35 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
