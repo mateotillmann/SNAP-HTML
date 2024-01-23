@@ -43,6 +43,9 @@
 
 
 
+
+
+
 @media(max-width: 1200px) {
   .testimonial-card1-root-class-name {
     background-color: #D9D9D9;
@@ -51,6 +54,15 @@
     background-color: #D9D9D9;
   }
   .testimonial-card1-root-class-name2 {
+    background-color: #D9D9D9;
+  }
+  .testimonial-card1-root-class-name3 {
+    background-color: #D9D9D9;
+  }
+  .testimonial-card1-root-class-name4 {
+    background-color: #D9D9D9;
+  }
+  .testimonial-card1-root-class-name5 {
     background-color: #D9D9D9;
   }
 }
