@@ -265,16 +265,6 @@
 .snap-hero-button2 {
   text-decoration: none;
 }
-.snap-animate-on-reveal {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  padding: var(--dl-space-space-twounits);
-  max-width: var(--dl-size-size-maxwidth);
-  align-self: center;
-  align-items: center;
-  flex-direction: row;
-}
 .snap-hero2 {
   width: 100%;
   height: 100%;
@@ -563,9 +553,6 @@
   .snap-container {
     background-color: var(--dl-color-primary-300);
   }
-  .snap-animate-on-reveal {
-    background-color: var(--dl-color-primary-300);
-  }
   .snap-hero2 {
     background-color: var(--dl-color-primary-300);
   }
@@ -614,18 +601,6 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-  }
-  .snap-animate-on-reveal {
-    height: 519px;
-    position: relative;
-    margin-bottom: 0px;
-    animation-name: flash;
-    animation-delay: 0s;
-    background-color: var(--dl-color-primary-300);
-    animation-duration: 300ms;
-    animation-direction: normal;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
   }
   .snap-hero2 {
     height: 519px;
@@ -704,11 +679,6 @@
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
-  }
-  .snap-animate-on-reveal {
-    height: 845px;
-    padding: var(--dl-space-space-threeunits);
-    flex-direction: column;
   }
   .snap-hero2 {
     height: 845px;
@@ -814,11 +784,6 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .snap-animate-on-reveal {
-    height: 1014px;
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
   .snap-hero2 {
     height: 1014px;
     padding-left: var(--dl-space-space-twounits);
@@ -879,12 +844,6 @@
   }
 }
 @media(max-width: 479px) {
-  .snap-animate-on-reveal {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
   .snap-hero2 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -938,9 +897,6 @@
   }
   .snap-btn-group {
     flex-direction: column;
-  }
-  .snap-animate-on-reveal {
-    height: 740px;
   }
   .snap-hero2 {
     height: 740px;

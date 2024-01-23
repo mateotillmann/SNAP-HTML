@@ -291,6 +291,7 @@
 }
 .snap-mini-text10 {
   color: #fb6004;
+  text-decoration: line-through;
 }
 .snap-mini-text12 {
   color: var(--dl-color-danger-500);
